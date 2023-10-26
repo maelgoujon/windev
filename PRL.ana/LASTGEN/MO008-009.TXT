@@ -1,0 +1,4 @@
+//MO008-009.TXT ANA00008 TO ANA00009
+carte		FIC-	Transaction	Fichier supprimé Transaction
+GAB		DEL	GAB (IDGAB) et Transaction (IDGAB)	Liaison supprimée entre les fichiers GAB (IDGAB) et Transaction (IDGAB)
+carte		DEL	carte (NumCarte) et Transaction (NumCarte)	Liaison supprimée entre les fichiers carte (NumCarte) et Transaction (NumCarte)

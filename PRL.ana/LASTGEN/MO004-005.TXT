@@ -1,0 +1,3 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+posseder		NNF*	personne_compte	nouveau nom posseder
+posseder		FRN		

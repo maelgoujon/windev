@@ -1,0 +1,15 @@
+//MO005-006.TXT ANA00005 TO ANA00006
+GAB		TAR	68	nouvelle taille enregistrement : 68
+GAB	IDbanque	RUB-		la clé IDbanque est supprimée
+compte		TAR	77	nouvelle taille enregistrement : 77
+compte	IDbanque	RUB-		la clé IDbanque est supprimée
+carte		TAR	35	nouvelle taille enregistrement : 35
+carte	IDpersonne	RUB-		la clé IDpersonne est supprimée
+carte	NumCompte	RUB-		la clé NumCompte est supprimée
+carte		FIC-	posseder	Fichier supprimé posseder
+compte		DEL	compte (NumCompte) et posseder (NumCompte)	Liaison supprimée entre les fichiers compte (NumCompte) et posseder (NumCompte)
+personne		DEL	personne (IDpersonne) et posseder (IDpersonne)	Liaison supprimée entre les fichiers personne (IDpersonne) et posseder (IDpersonne)
+personne		DEL	personne (IDpersonne) et carte (IDpersonne)	Liaison supprimée entre les fichiers personne (IDpersonne) et carte (IDpersonne)
+banque		DEL	banque (IDbanque) et compte (IDbanque)	Liaison supprimée entre les fichiers banque (IDbanque) et compte (IDbanque)
+banque		DEL	banque (IDbanque) et GAB (IDbanque)	Liaison supprimée entre les fichiers banque (IDbanque) et GAB (IDbanque)
+compte		DEL	compte (NumCompte) et carte (NumCompte)	Liaison supprimée entre les fichiers compte (NumCompte) et carte (NumCompte)

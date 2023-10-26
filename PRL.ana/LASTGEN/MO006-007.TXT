@@ -1,0 +1,7 @@
+//MO006-007.TXT ANA00006 TO ANA00007
+GAB		TAR	72	nouvelle taille enregistrement : 72
+GAB	IDbanque	RUB+		IDbanque est une nouvelle clé
+carte		TAR	39	nouvelle taille enregistrement : 39
+carte	IDpersonne	RUB+		IDpersonne est une nouvelle clé
+banque		NWL	banque (IDbanque) et GAB (IDbanque)	Nouvelle liaison entre les fichiers banque (IDbanque) et GAB (IDbanque)
+personne		NWL	personne (IDpersonne) et carte (IDpersonne)	Nouvelle liaison entre les fichiers personne (IDpersonne) et carte (IDpersonne)

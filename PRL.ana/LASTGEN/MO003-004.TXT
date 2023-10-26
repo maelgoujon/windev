@@ -1,0 +1,7 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+personne_compte		NFI		nouveau fichier
+carte		FIC-	posséder	Fichier supprimé posséder
+compte		NWL	compte (NumCompte) et personne_compte (NumCompte)	Nouvelle liaison entre les fichiers compte (NumCompte) et personne_compte (NumCompte)
+personne		NWL	personne (IDpersonne) et personne_compte (IDpersonne)	Nouvelle liaison entre les fichiers personne (IDpersonne) et personne_compte (IDpersonne)
+compte		DEL	compte (NumCompte) et posséder (NumCompte)	Liaison supprimée entre les fichiers compte (NumCompte) et posséder (NumCompte)
+personne		DEL	personne (IDpersonne) et posséder (IDpersonne)	Liaison supprimée entre les fichiers personne (IDpersonne) et posséder (IDpersonne)
