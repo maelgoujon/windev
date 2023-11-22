@@ -1,0 +1,10 @@
+//MO007-008.TXT ANA00007 TO ANA00008
+personne_compte		NFI		nouveau fichier
+compte		TAR	81	nouvelle taille enregistrement : 81
+compte	IDbanque	RUB+		IDbanque est une nouvelle clé
+carte		TAR	48	nouvelle taille enregistrement : 48
+carte	NumCompte	RUB+		NumCompte est une nouvelle clé
+banque		NWL	banque (IDbanque) et compte (IDbanque)	Nouvelle liaison entre les fichiers banque (IDbanque) et compte (IDbanque)
+compte		NWL	compte (NumCompte) et carte (NumCompte)	Nouvelle liaison entre les fichiers compte (NumCompte) et carte (NumCompte)
+compte		NWL	compte (NumCompte) et personne_compte (NumCompte)	Nouvelle liaison entre les fichiers compte (NumCompte) et personne_compte (NumCompte)
+personne		NWL	personne (IDpersonne) et personne_compte (IDpersonne)	Nouvelle liaison entre les fichiers personne (IDpersonne) et personne_compte (IDpersonne)

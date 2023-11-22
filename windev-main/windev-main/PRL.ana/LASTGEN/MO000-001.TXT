@@ -1,0 +1,12 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+posséder		NFI		nouveau fichier
+personne		NFI		nouveau fichier
+GAB		NFI		nouveau fichier
+compte		NFI		nouveau fichier
+banque		NFI		nouveau fichier
+carte		NFI		nouveau fichier
+compte		NWL	compte (NumCompte) et posséder (NumCompte)	Nouvelle liaison entre les fichiers compte (NumCompte) et posséder (NumCompte)
+personne		NWL	personne (IDpersonne) et posséder (IDpersonne)	Nouvelle liaison entre les fichiers personne (IDpersonne) et posséder (IDpersonne)
+banque		NWL	banque (IDbanque) et compte (IDbanque)	Nouvelle liaison entre les fichiers banque (IDbanque) et compte (IDbanque)
+banque		NWL	banque (IDbanque) et GAB (IDbanque)	Nouvelle liaison entre les fichiers banque (IDbanque) et GAB (IDbanque)
+banque		NWL	banque (IDbanque) et carte (IDbanque)	Nouvelle liaison entre les fichiers banque (IDbanque) et carte (IDbanque)
